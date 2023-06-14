@@ -1,5 +1,24 @@
 {
-  "dependencies": {
-    "sass": "^1.62.1"
-  }
+	"name": "results-summary-component-main",
+	"description": "![Design preview for the Results summary component coding challenge](./design/desktop-preview.jpg)",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"watch:sass": "sass sass/main.scss css/main.css -w",
+		"devserver": "live-server",
+		"start": "npm-run-all --parallel devserver watch:sass",
+		"compile:sass": "sass sass/main.scss css/main.comp.css",
+		"prefix:css": "postcss --use autoprefixer -b 'last 10 versions' css/main.comp.css -o css/main.prefix.css",
+		"compress:css": "sass css/main.prefix.css css/main.css --style compressed",
+		"build:css": "npm-run-all compile:sass prefix:css compress:css"
+	},
+	"author": "sgtMiro",
+	"license": "ISC",
+	"devDependencies": {
+		"autoprefixer": "^10.4.14",
+		"concat": "^1.0.3",
+		"npm-run-all": "^4.1.5",
+		"postcss-cli": "^10.1.0",
+		"sass": "^1.63.3"
+	}
 }

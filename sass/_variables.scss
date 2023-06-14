@@ -1,0 +1,38 @@
+// Primary colors
+$summary-title-red: hsl(0, 100%, 67%);
+$summary-title-red-opacity: hsla(0, 100%, 67%, 0.05);
+$summary-title-orange: hsl(39, 100%, 56%);
+$summary-title-orange-opacity: hsl(39, 100%, 56%, 0.05);
+$summary-title-green: hsl(166, 100%, 37%);
+$summary-title-green-opacity: hsl(166, 100%, 37%, 0.05);
+$summary-title-blue: hsl(234, 85%, 45%);
+$summary-title-blue-opacity: hsl(234, 85%, 45%, 0.05);
+
+// Gradient colors
+// Background
+$background-light-blue: hsl(252, 100%, 67%);
+$background-dark-blue: hsl(241, 81%, 54%);
+
+// Circle
+$background-violet-blue: hsla(256, 72%, 46%, 1);
+$background-persian-blue: hsla(241, 72%, 46%, 0);
+
+// Text
+$text-white: hsl(0, 0%, 100%);
+$text-light-blue: hsl(241, 100%, 89%);
+$text-very-light-blue: hsl(220, 100%, 96%);
+$text-gray-blue: hsl(223, 30%, 27%);
+$text-gray-blue-opacity: hsl(223, 30%, 27%, 0.5);
+
+// Font size
+$fz-text-xs: 1.6rem;
+$fz-text-s: 1.8rem;
+$fz-text-m: 2.4rem;
+$fz-text-l: 3.2rem;
+$fz-text-xl: 5.6rem;
+$fz-text-xxl: 7.2rem;
+
+// Font weight
+$fw-text-bold-m: 500;
+$fw-text-bold-l: 700;
+$fw-text-bold-xl: 800;

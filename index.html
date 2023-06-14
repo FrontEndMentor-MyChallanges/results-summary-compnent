@@ -1,47 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+
   <title>Frontend Mentor | Results summary component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="./css/main.css" />
+  <script src="script.js" defer></script>
 </head>
+
 <body>
+  <main class="component">
+    <div class="component__result">
+      <h1 class="result__title">Your Result</h1>
+      <p class="result__score">76 <span>of 100</span></p>
 
-  Your Result
-  76
-  of 100
+      <p class="result__grade">Great</p>
+      <p class="result__description">
+        Your performance exceed 65% of the people conductiong the test here!
+      </p>
+    </div>
+    <div class="component__summary">
+      <div class="summary">
+        <h2 class="summary__title">Summary</h2>
 
-  Great
-  You scored higher than 65% of the people who have taken these tests.
-  
-  Summary
+        <ul class="summary__list">
+          <!-- <li class="summary__item summary__item--reaction">
+            <p class="summary__name">Reaction</p>
+            <p class="summary__rating">80 <span>/ 100</span></p>
+          </li>
+          <li class="summary__item summary__item--memory">
+            <p class="summary__name">Memory</p>
+            <p class="summary__rating">92 <span>/ 100</p>
+          </li>
+          <li class="summary__item summary__item--verbal">
+            <p class="summary__name">Verbal</p>
+            <p class="summary__rating">61 <span>/ 100</p>
+          </li>
+          <li class="summary__item summary__item--visual">
+            <p class="summary__name">Visual</p>
+            <p class="summary__rating">72 <span>/ 100</p>
+          </li> -->
+        </ul>
+        <a href="#" class="btn-continue">Continue</a>
+      </div>
+    </div>
+  </main>
 
-  Reaction
-  80 / 100
-
-  Memory
-  92 / 100
-
-  Verbal
-  61 / 100
-
-  Visual
-  72 / 100
-
-  Continue
-  
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Challenge by
+    <a href="https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV/hub" target="_blank">Frontend
+      Mentor</a>. Coded by
+    <a href="https://www.frontendmentor.io/profile/miroslaw-mroczkowski" target="_blank">Mirosław Mroczkowski</a>.
   </div>
 </body>
+
 </html>
